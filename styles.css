@@ -1,0 +1,157 @@
+/*
+    Paradigm Pet Professionals styles
+
+    author: Brandon Jenkins
+*/
+
+:root {
+    --midnight-blue: #003B6D;
+    --blue-sky: #6699CC;
+    --dim-gray: #676767;
+    --silver: #BDBDBD;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--blue-sky);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 1.25rem;
+    letter-spacing: 0.025rem;
+    line-height: 1.5rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+header h1 {
+    letter-spacing: 0.1rem;
+    font-variant: small-caps;
+}
+
+header h3 {
+    letter-spacing: 0.05rem;
+    font-style: italic;
+    margin: 0.3rem 0 0 1rem;
+}
+
+header .stacked-text {
+    margin-left: 1rem;
+}
+
+nav {
+    margin: 0 5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--midnight-blue);
+    padding: 0.5rem 0;
+    border-radius: 0.25rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--silver);
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-variant: small-caps;
+}
+
+section {
+    margin: 3rem 6rem;
+    font-size: 1.2rem;
+}
+
+#mission p {
+    margin: 0 2rem;
+}
+
+hr {
+    border: 1px solid var(--dim-gray);
+    margin: 0 5rem;
+}
+
+#links p {
+    text-align: center;
+}
+
+#links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links li {
+    letter-spacing: 0.05rem;
+    margin: 0.5rem;
+}
+
+#links a {
+    margin: 0 0.25rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 2rem;
+    background-color: var(--midnight-blue);
+    color: var(--silver);
+    border-radius: 0.5rem;
+}
+
+#form h2 {
+    font-variant: small-caps;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-inline: 2rem;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    letter-spacing: 0.05rem;
+}
+
+form input, textarea {
+    width: 20%;
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.25rem 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
