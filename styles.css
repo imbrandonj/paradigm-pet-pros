@@ -38,6 +38,20 @@ p {
     line-height: 1.5rem;
 }
 
+
+.alignL {
+    text-align: left;
+}
+
+.alignR {
+    text-align: right;
+}
+
+.alignC {
+    text-align: center;
+}
+
+
 header {
     display: flex;
     align-items: center;
@@ -83,18 +97,61 @@ nav ul li a {
     font-variant: small-caps;
 }
 
+nav ul li a:hover {
+    color: var(--dim-gray);
+}
+
 section {
     margin: 3rem 6rem;
-    font-size: 1.2rem;
 }
 
 #mission p {
-    margin: 0 2rem;
+    padding: 0 2rem;
+    font-size: 1.42rem;
+    line-height: 2rem;
 }
 
-hr {
-    border: 1px solid var(--dim-gray);
-    margin: 0 5rem;
+#explore {
+    padding: 3rem;
+    background-color: var(--midnight-blue);
+    color: var(--silver);
+    border-radius: 0.5rem;
+}
+
+#explore h2 {
+    font-variant: small-caps;
+    font-size: 2.4rem;
+    letter-spacing: 0.15rem;
+}
+
+#exploreImgs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem 10rem;
+}
+
+.imgContainer {
+    flex: 1 0 25%;
+    margin: 0 4rem;
+}
+
+.exploreImg {
+    width: 100%;
+    margin-top: 1.5rem;
+    filter: grayscale(100%);
+    border-radius: 0.5rem;
+}
+
+.exploreImg:hover {
+    filter: grayscale(0%);
+}
+
+.imgContainer figcaption {
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 1.75rem;
+    letter-spacing: 0.075rem;
 }
 
 #links p {
@@ -108,8 +165,10 @@ hr {
 }
 
 #links li {
-    letter-spacing: 0.05rem;
     margin: 0.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+
 }
 
 #links a {
@@ -120,7 +179,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-self: center;
-    padding: 2rem;
+    padding: 3rem;
     background-color: var(--midnight-blue);
     color: var(--silver);
     border-radius: 0.5rem;
@@ -128,12 +187,15 @@ hr {
 
 #form h2 {
     font-variant: small-caps;
+    font-size: 2.4rem;
+    letter-spacing: 0.05rem;
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem 0 0;
 }
 
 form label {
@@ -151,7 +213,17 @@ form input, textarea {
     padding: 0.25rem 0.5rem;
 }
 
+form textarea {
+    resize: none;
+    height: 8rem;
+}
+
 footer {
     display: flex;
     justify-content: center;
+}
+
+hr {
+    border: 1px solid var(--dim-gray);
+    margin: 0 5rem;
 }
