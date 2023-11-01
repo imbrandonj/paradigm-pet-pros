@@ -1,0 +1,122 @@
+/*
+    Paradigm Pet Professionals
+    index.css styles for index.html
+
+    author: Brandon Jenkins
+*/
+
+#mission p {
+    padding: 0 2rem;
+    font-size: 1.42rem;
+    line-height: 2rem;
+}
+
+#explore {
+    padding: 3rem;
+    background-color: var(--midnight-blue);
+    color: var(--silver);
+    border-radius: 0.5rem;
+}
+
+#explore h2 {
+    font-size: 2.8rem;
+    letter-spacing: 0.25rem;
+}
+
+#exploreImgs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem 10rem;
+}
+
+.imgContainer {
+    flex: 1 0 25%;
+    margin: 0 4rem;
+}
+
+.exploreImg {
+    width: 100%;
+    margin-top: 2rem;
+    filter: grayscale(100%);
+    border-radius: 0.5rem;
+}
+
+.exploreImg:hover {
+    filter: grayscale(0%);
+}
+
+.imgContainer figcaption {
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.075rem;
+}
+
+#links p {
+    text-align: center;
+}
+
+#links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links li {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+
+}
+
+#links a {
+    margin: 0 0.25rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 3rem;
+    background-color: var(--midnight-blue);
+    color: var(--silver);
+    border-radius: 0.5rem;
+}
+
+#form h2 {
+    font-size: 2.8rem;
+    letter-spacing: 0.25rem;
+}
+
+#form p {
+    margin-left: 2rem;
+    line-height: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 0;
+}
+
+form label {
+    margin-inline: 2rem;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    letter-spacing: 0.05rem;
+}
+
+form input, textarea {
+    width: 20%;
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.25rem 0.5rem;
+}
+
+form textarea {
+    resize: none;
+    height: 8rem;
+}

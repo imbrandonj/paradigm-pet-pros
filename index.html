@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Paradigm Pet Professionals</title>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="index.css" />
     </head>
 
     <body>
@@ -18,62 +20,76 @@
 
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="">Cats</a></li>
-                <li><a href="">Dogs</a></li>
-                <li><a href="">Fish</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="./cats.html">Cats</a></li>
+                <li><a href="./dogs.html">Dogs</a></li>
+                <li><a href="./birds.html">Birds</a></li>
                 <li><a href="#form">Contact</a></li>
             </ul>
         </nav>
 
         <section id="mission">
-        <p class="alignL">
-            Pets are nature's gift to humanity.<br>
-            It has been scientifically proven that opening our homes and hearts to a pet increases our longevity<br> and improves our overall quality of life as well as the lives of our pets. <br><br>
-        </p>
-        <p class="alignR">
-            At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones.<br> 
-            Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years.<br> 
-            They offer one-on-one consultations with current and prospective pet owners<br>
-             as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.<br><br>
-        </p>
-        <p class="alignL">
-            Looking for basic pet care advice for the most common type of pets?<br>
-            Need additional help determining which type of pet is right for you and your family?<br>
-            We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion. 
-        </p>
+        
+        <div class="imgPara alignL">
+            <p>
+                Pets are nature's gift to humanity.<br>
+                It has been scientifically proven that opening our homes and hearts to a pet increases our longevity<br> and improves our overall quality of life as well as the lives of our pets. <br><br>
+            </p>
+            <div class="imgPair">
+                <img src="./assets/img/joy-svg.svg" height="88">
+                <img src="./assets/img/dog-svg.svg" height="88" class="flip">
+            </div>
+        </div>
+
+        <div class="imgPara alignR">
+            <img src="./assets/img/bird-svg.svg" height="122" class="singleImg">
+            <p>
+                At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones.<br> 
+                Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years.<br> 
+                They offer one-on-one consultations with current and prospective pet owners<br>
+                as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.<br>
+            </p>
+        </div>
+        <div class="imgPara alignL">
+            <p><br>
+                Looking for basic pet care advice for the most common type of pets?<br>
+                Need additional help determining which type of pet is right for you and your family?<br>
+                We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion. 
+            </p>
+        </div>
+
         </section>
 
         <hr>
 
         <section id="explore">
-            <h2>Explore</h2>
+            <h2>Explore:</h2>
             <div id="exploreImgs">
 
                 <div class="imgContainer">
-                    <a href="">
-                        <img class="exploreImg" src="./assets/img/cat1.jpg" height="300" alt="Cat Image" />
+                    <a href="./cats.html">
+                        <img class="exploreImg" src="./assets/img/cat1.jpg" height="310" alt="Cat Image" />
                     </a>
                     <figcaption>Cats</figcaption>
                 </div>
 
                 <div class="imgContainer">
-                    <a href="">
-                        <img class="exploreImg" src="./assets/img/dog2.jpg" height="300" alt="Dog Image" />
+                    <a href="./dogs.html">
+                        <img class="exploreImg" src="./assets/img/dog2.jpg" height="310" alt="Dog Image" />
                     </a>
                     <figcaption>Dogs</figcaption>
                 </div>
 
                 <div class="imgContainer">
-                    <a href="">
-                        <img class="exploreImg" src="./assets/img/fish2.jpg" height="300" alt="Fish Image" />
+                    <a href="./birds.html">
+                        <img class="exploreImg" src="./assets/img/bird.jpg" height="310" alt="Bird Image" />
                     </a>
-                    <figcaption>Fish</figcaption>
+                    <figcaption>Birds</figcaption>
                 </div>
 
                 <div class="imgContainer">
                     <a href="#explore">
-                        <img class="exploreImg" src="./assets/img/about.jpg" height="300" alt="Employees Image" />
+                        <img class="exploreImg" src="./assets/img/about.jpg" height="310" alt="Employees Image" />
                     </a>
                     <figcaption>About Us</figcaption>
                 </div>
