@@ -1,0 +1,40 @@
+#catSum p {
+    padding: 0 2rem;
+    font-size: 1.42rem;
+    line-height: 2.4rem;
+}
+
+.ageGroup {
+    margin: 4rem 2rem;
+}
+
+.ageGroup h3 {
+    margin: 5rem 0 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    font-weight: 300;
+}
+
+.ageGroup p {
+    line-height: 2rem;
+    text-indent: 2rem;
+}
+
+.ageGroup ul {
+    margin-left: 3rem;
+}
+
+.ageGroup li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+}
+
+.ageGroup a {
+    color: var(--blue-sky);
+}
+
+.ageGroup a:hover {
+    color: var(--dim-gray);
+}
