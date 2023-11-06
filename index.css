@@ -6,25 +6,17 @@
 */
 
 #mission p {
-    padding: 0 2rem;
-    font-size: 1.42rem;
-    line-height: 2rem;
-}
-
-#exploreImgs {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 1rem 10rem;
+    line-height: 1.6rem;
 }
 
 .imgContainer {
-    flex: 1 0 25%;
-    margin: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .exploreImg {
-    width: 100%;
     margin-top: 2rem;
     filter: grayscale(100%);
     border-radius: 0.5rem;
@@ -37,8 +29,12 @@
 .imgContainer figcaption {
     font-variant: small-caps;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.4rem;
     letter-spacing: 0.075rem;
+}
+
+#links {
+    letter-spacing: 0.05rem;
 }
 
 #links p {
@@ -53,12 +49,10 @@
 
 #links li {
     margin: 0.5rem;
-    font-size: 1.2rem;
-    letter-spacing: 0.05rem;
 }
 
 #links a {
-    margin: 0 0.25rem;
+    margin: 0 0.15rem;
 }
 
 #form {
@@ -68,7 +62,6 @@
 }
 
 #form p {
-    margin-left: 2rem;
     line-height: 2rem;
 }
 
@@ -81,13 +74,13 @@ form {
 
 form label {
     margin-inline: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-variant: small-caps;
     letter-spacing: 0.05rem;
 }
 
 form input, textarea {
-    width: 20%;
+    width: 80%;
     margin: 0.5rem 0;
     font-size: 1.4rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -97,4 +90,97 @@ form input, textarea {
 form textarea {
     resize: none;
     height: 8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    #mission p {
+        padding: 0 2rem;
+        font-size: 1.42rem;
+        line-height: 2rem;
+    }
+    
+    #exploreImgs {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 1rem 10rem;
+    }
+    
+    .imgContainer {
+        flex: 1 0 25%;
+        margin: 0 4rem;
+    }
+    
+    .exploreImg {
+        width: 100%;
+        margin-top: 2rem;
+        border-radius: 0.5rem;
+    }
+    
+    .exploreImg:hover {
+        filter: grayscale(0%);
+    }
+    
+    .imgContainer figcaption {
+        font-variant: small-caps;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 0.075rem;
+    }
+    
+    #links p {
+        text-align: center;
+    }
+    
+    #links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #links li {
+        margin: 0.5rem;
+        font-size: 1.2rem;
+        letter-spacing: 0.05rem;
+    }
+    
+    #links a {
+        margin: 0 0.25rem;
+    }
+    
+    #form {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+    
+    #form p {
+        margin-left: 2rem;
+        line-height: 2rem;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0 0;
+    }
+    
+    form label {
+        margin-inline: 2rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+    }
+    
+    form input, textarea {
+        width: 20%;
+        margin: 0.5rem 0;
+        font-size: 1.4rem;
+        padding: 0.25rem 0.5rem;
+    }
+    
+    form textarea {
+        resize: none;
+        height: 8rem;
+    }
 }
