@@ -40,6 +40,7 @@ section {
 }
 
 section h2 {
+    margin: 0 0 1rem 1rem;
     font-size: 1.4rem;
     letter-spacing: 0.25rem;
 }
@@ -75,17 +76,6 @@ p {
 
 .flip {
     transform: scaleX(-1);
-}
-
-.alignL {
-    text-align: left;
-    justify-content: left;
-}
-
-.alignR {
-    text-align: right;
-    justify-content: right;
-
 }
 
 .alignC {
@@ -247,5 +237,16 @@ hr {
     
     hr {
         margin: 0 5rem;
+    }
+
+    .alignL {
+        text-align: left;
+        justify-content: left;
+    }
+    
+    .alignR {
+        text-align: right;
+        justify-content: right;
+    
     }
 }

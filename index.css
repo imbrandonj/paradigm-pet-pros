@@ -5,8 +5,10 @@
     author: Brandon Jenkins
 */
 
-#mission p {
+#mission p, #links {
+    padding: 0 2rem;
     line-height: 1.6rem;
+    letter-spacing: 0.05rem;
 }
 
 .imgContainer {
@@ -31,10 +33,6 @@
     text-align: center;
     font-size: 1.4rem;
     letter-spacing: 0.075rem;
-}
-
-#links {
-    letter-spacing: 0.05rem;
 }
 
 #links p {
@@ -62,7 +60,8 @@
 }
 
 #form p {
-    line-height: 2rem;
+    padding: 0 2rem;
+    line-height: 1.6rem;
 }
 
 form {
@@ -72,7 +71,7 @@ form {
     margin: 1rem 0 0;
 }
 
-form label {
+form label, button {
     margin-inline: 2rem;
     font-size: 1.4rem;
     font-variant: small-caps;
@@ -82,14 +81,33 @@ form label {
 form input, textarea {
     width: 80%;
     margin: 0.5rem 0;
-    font-size: 1.4rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
 }
 
 form textarea {
     resize: none;
     height: 8rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: var(--blue-sky);
+    border: 1px solid var(--blue-sky);
+    border-radius: 0.25rem;
+    font-family: var(--font);
+    font-size: 1.4rem;
+    letter-spacing: 0.15rem;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: var(--midnight-blue);
+    color: var(--silver);
+    border: 1px solid var(--blue-sky);
 }
 
 @media only screen and (min-width: 768px) {

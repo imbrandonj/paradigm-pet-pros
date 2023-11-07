@@ -11,46 +11,23 @@
 
 #animalSum p {
     padding: 0 2rem;
-    font-size: 1.42rem;
-    line-height: 2.4rem;
-    text-indent: 2rem;
-}
-
-#animalSum ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0rem 0rem 2rem;
-    font-size: 1.42rem;
-    line-height: 2.4rem;
-}
-
-#dogs #animalSum .singleImg {
-    margin: 0rem 3rem 1rem;
-}
-
-#cats #animalSum .singleImg {
-    margin: 1rem 3rem 0rem;
-}
-
-#birds #animalSum .singleImg {
-    margin: 1rem 4rem 0rem;
+    line-height: 1.6rem;
 }
 
 .category {
-    margin: 4rem 2rem;
+    margin: 2rem 1rem;
 }
 
 .category h3 {
-    margin: 5rem 0 1.5rem;
+    margin: 3rem 0 1.5rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.4rem;
     letter-spacing: 0.15rem;
     font-weight: 300;
 }
 
 .category p {
-    line-height: 2rem;
+    line-height: 1.6rem;
     text-indent: 2rem;
 }
 
@@ -58,12 +35,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 3rem;
 }
 
 .category li {
-    margin: 0.5rem;
-    font-size: 1.25rem;
+    margin: 0.5rem 0;
     letter-spacing: 0.05rem;
 }
 
@@ -75,5 +50,61 @@
     color: var(--dim-gray);
 }
 
-@media only screen and (min-width: 768px)
-{}
+@media only screen and (min-width: 768px) {
+    #animalSum p {
+        padding: 0 2rem;
+        font-size: 1.42rem;
+        line-height: 2.4rem;
+        text-indent: 2rem;
+    }
+    
+    #dogs #animalSum .singleImg {
+        margin: 0rem 3rem 1rem;
+    }
+    
+    #cats #animalSum .singleImg {
+        margin: 1rem 3rem 0rem;
+    }
+    
+    #birds #animalSum .singleImg {
+        margin: 1rem 4rem 0rem;
+    }
+    
+    .category {
+        margin: 4rem 2rem;
+    }
+    
+    .category h3 {
+        margin: 5rem 0 1.5rem;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 0.15rem;
+        font-weight: 300;
+    }
+    
+    .category p {
+        line-height: 2rem;
+        text-indent: 2rem;
+    }
+    
+    .category ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    
+    .category li {
+        margin: 0.5rem;
+        font-size: 1.25rem;
+        letter-spacing: 0.05rem;
+    }
+    
+    .category a {
+        color: var(--blue-sky);
+    }
+    
+    .category a:hover {
+        color: var(--dim-gray);
+    }
+}
