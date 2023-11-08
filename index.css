@@ -119,20 +119,20 @@ form button:hover {
     
     #exploreImgs {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
-        margin: 1rem 10rem;
+        margin: 2rem 0 0 0;
     }
     
     .imgContainer {
-        flex: 1 0 25%;
-        margin: 0 4rem;
+        flex: 1 0 35%;
     }
     
     .exploreImg {
-        width: 100%;
-        margin-top: 2rem;
+        margin-top: 3rem;
         border-radius: 0.5rem;
+        width: 30rem;
+        height: 20rem;
     }
     
     .exploreImg:hover {
@@ -142,8 +142,9 @@ form button:hover {
     .imgContainer figcaption {
         font-variant: small-caps;
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.2rem;
         letter-spacing: 0.075rem;
+        margin-top: 1rem;
     }
     
     #links p {
